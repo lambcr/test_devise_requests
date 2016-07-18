@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'User Sign In', type: :request do
+RSpec.describe 'Users Sign In', type: :request do
   describe '/users/sign_in/' do
     before { get '/users/sign_in/' }
 
